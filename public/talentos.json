@@ -1,0 +1,67 @@
+[
+  {
+    "nome": "Ana Souza",
+    "titulo": "Desenvolvedora Front-end",
+    "stacks": ["JavaScript", "React", "CSS"],
+    "projetos": [
+      {
+        "nome": "App de receitas",
+        "descricao": "Busca receitas por ingrediente",
+        "link": "https://github.com/anasouza/app-receitas"
+      }
+    ],
+    "portfolio": "https://anasouza.dev",
+    "diferenciais": ["inglês avançado"],
+    "contato": "ana@email.com"
+  },
+  {
+    "nome": "Bruno Lima",
+    "titulo": "Desenvolvedor Back-end",
+    "stacks": ["Node.js", "PostgreSQL", "Docker"],
+    "projetos": [
+      {
+        "nome": "API de agendamentos",
+        "descricao": "API REST para agendar horários em salões de beleza",
+        "link": "https://github.com/brunolima/api-agendamentos"
+      },
+      {
+        "nome": "Encurtador de links",
+        "descricao": "Serviço que encurta URLs e conta os cliques",
+        "link": "https://github.com/brunolima/encurtador"
+      }
+    ],
+    "portfolio": "https://brunolima.dev",
+    "diferenciais": ["experiência com deploy em nuvem", "boa documentação de código"],
+    "contato": "bruno@email.com"
+  },
+  {
+    "nome": "Carla Mendes",
+    "titulo": "Desenvolvedora Full-stack",
+    "stacks": ["JavaScript", "React", "Node.js", "PostgreSQL"],
+    "projetos": [
+      {
+        "nome": "Controle de gastos",
+        "descricao": "App para registrar despesas e ver gráficos por categoria",
+        "link": "https://github.com/carlamendes/controle-gastos"
+      }
+    ],
+    "portfolio": "https://carlamendes.dev",
+    "diferenciais": ["espanhol fluente", "já liderou projeto em equipe"],
+    "contato": "carla@email.com"
+  },
+  {
+    "nome": "Diego Santos",
+    "titulo": "Desenvolvedor de Dados",
+    "stacks": ["Python", "SQL", "Pandas"],
+    "projetos": [
+      {
+        "nome": "Painel de vendas",
+        "descricao": "Análise de vendas de uma loja com relatórios automáticos",
+        "link": "https://github.com/diegosantos/painel-vendas"
+      }
+    ],
+    "portfolio": "https://diegosantos.dev",
+    "diferenciais": ["inglês intermediário", "conhecimento em estatística"],
+    "contato": "diego@email.com"
+  }
+]

@@ -1,16 +1,18 @@
-# React + Vite
+# Contrate um talento
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Catálogo de pessoas desenvolvedoras, cada uma com sua "ficha técnica", para quem
+quer contratar (RH ou dono de empresa) achar rápido alguém com as habilidades certas.
 
-Currently, two official plugins are available:
+Feito com Vite + React. Por enquanto os dados vêm de `public/talentos.json`;
+no futuro virão de um banco PostgreSQL no Supabase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Comandos
 
-## React Compiler
+| O quê | Comando |
+| --- | --- |
+| Instalar as dependências | `npm install` |
+| Rodar em modo desenvolvimento | `npm run dev` |
+| Rodar os testes | `npm test` |
+| Verificar o código (lint) | `npm run lint` |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Depois do `npm run dev`, abra o endereço que aparece no terminal (normalmente http://localhost:5173).
